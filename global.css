@@ -3,6 +3,8 @@
 @import url('./CSS/layout.css');
 @import url('./CSS/variables.css');
 
+
+
 * {
     padding: 0;
     margin: 0;
@@ -27,6 +29,5 @@ main {
     
     background-color: #f8fafc;
     
-
     font-family: 'DM Sans', sans-serif;
 }

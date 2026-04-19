@@ -1,0 +1,266 @@
+:root {
+    /* Variables CSS pour component */
+    /* ------------------------------------------------------------------------------------------------------- */
+    /* Couleurs principales */
+    --color-primary: #6366F1;
+    --color-text-dark: #151516;
+    --color-text-light: #616465;
+    --color-text-white: #ffffff;
+    --color-text-black: #000000;
+    --color-border: beige;
+    
+    /* Couleurs d'accent */
+    --color-success: #2e9e6b;
+    --color-danger: #c0392b;
+    --color-light-blue: #e6f2f9;
+    --color-light-green: #eaf7f1;
+    --color-light-yellow: #fef2e4;
+    --color-light-purple: #e6e6fb;
+    
+    /* Couleurs de fond */
+    --color-bg-white: #fff;
+    --color-bg-card-border: rgba(118, 184, 213, 0.402);
+    
+    /* Typographie */
+    --font-primary: Sora, sans-serif;
+    --font-secondary: 'DM sans', sans-serif;
+    
+    /* Tailles de police */
+    --font-size-lg: 20px;
+    --font-size-md: 18px;
+    --font-size-base: 16px;
+    --font-size-sm: 14px;
+    --font-size-xs: 12px;
+    
+    /* Poids de police */
+    --font-weight-normal: 400;
+    --font-weight-bold: 800;
+    --font-weight-bolder: bolder;
+    
+    /* Espacements */
+    --spacing-xs: 10px;
+    --spacing-sm: 12px;
+    --spacing-md: 15px;
+    --spacing-lg: 20px;
+    --spacing-xl: 30px;
+    --spacing-xxl: 35px;
+    
+    /* Dimensions */
+    --size-icon: 20px;
+    --size-logo: 25px;
+    --size-profile: 130px;
+    
+    /* Border radius */
+    --border-radius-sm: 6px;
+    --border-radius-md: 10px;
+    --border-radius-lg: 15px;
+    --border-radius-full: 50%;
+    
+    /* Ombres */
+    --shadow-button: 1px 1px 0.5px black;
+    
+    /* Transitions */
+    --transition-default: 0.3s ease;
+
+
+
+    /* Variables CSS pour le layout */
+    /* ------------------------------------------------------------------------------------------------------- */
+    /* Couleurs principales */
+    --color-primary: #6366f1;
+    --color-dark: #1e293b;
+    --color-light: #ffffff;
+    --color-text-dark: #284875;
+    --color-border: rgba(0, 0, 0, 0.154);
+    
+    /* Couleurs de statut */
+    --color-status-suspended-bg: #fef3c7;
+    --color-status-suspended-text: #92400e;
+    --color-status-connected-bg: #dcfce7;
+    --color-status-connected-text: #166534;
+    --color-status-disconnected-bg: #fee2e2;
+    --color-status-disconnected-text: #991b1b;
+    
+    /* Couleurs du tableau */
+    --color-table-even-row: #a5a6d6;
+    --color-table-bottom-border: #77b9d5;
+    --color-table-shadow: rgba(0, 0, 0, 0.15);
+    
+    /* Couleurs du glassmorphism */
+    --color-glass-bg: rgba(255, 255, 255, 0.171);
+    --color-glass-border: rgba(255, 255, 255, 0.541);
+    
+    /* Dimensions */
+    --sidebar-width: 20vw;
+    --sidebar-height: 100vh;
+    --side-elements-width: 200px;
+    --table-width: 1017px;
+    
+    /* Marges et espacements */
+    --margin-sidebar: 35px;
+    --gap-sidebar: 30px;
+    --gap-side-elements: 10px;
+    --padding-link: 8px 10px;
+    --gap-link: 15px;
+    --padding-status: 5px 20px;
+    --border-radius-lg: 16px;
+    --border-radius-md: 10px;
+    
+    /* Typographie */
+    --font-dm-sans: 'DM sans', sans-serif;
+    --font-sora: Sora, Arial, Helvetica, sans-serif;
+    --font-size-profile: 18px;
+    --font-size-address: 12px;
+    --font-size-thead: 16px;
+    --font-size-tbody: 14px;
+    
+    /* Effects */
+    --blur-effect: blur(10px);
+    --box-shadow-table: 0 5px 50px var(--color-table-shadow);
+
+
+    
+    /* Variables CSS pour base */
+    /* ------------------------------------------------------------------------------------------------------- */
+    /* Couleurs principales */
+    --color-primary: #6366f1;
+    --color-secondary: #8b8cc2;
+    --color-accent: #41c6ee;
+    --color-accent-light: #63b1f1;
+    --color-white: #ffffff;
+    --color-text: #6366f1;
+    --color-border: #ccc;
+    --color-border-header: rgba(0, 0, 0, 0.154);
+    
+    /* Dimensions */
+    --spacing-sm: 6px;
+    --spacing-md: 15px;
+    --spacing-lg: 20px;
+    --spacing-xl: 30px;
+    --border-radius-sm: 5px;
+    --border-radius-md: 10px;
+    --header-height: 42px;
+    --search-bar-width: 250px;
+    --search-bar-height: 35px;
+    
+    /* Typographie */
+    --font-primary: Sora, Arial, Helvetica, sans-serif;
+    --font-secondary: 'DM sans', sans-serif;
+    --transition-smooth: 0.2s ease;
+    /* ------------------------------------------------------------------------------------------------------- */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header responsive
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .search-bar {
+        width: 100%;
+    }
+}
+
+/* Cartes de statistiques */
+/* @media (max-width: 1024px) {
+    .cards_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .cards_container {
+        grid-template-columns: 1fr;
+    }
+} */
+
+/* Tableau */
+/* @media (max-width: 768px) {
+    .tableau {
+        font-size: 12px;
+        overflow-x: auto;
+        display: block;
+    }
+    
+    .tableau thead {
+        display: none;
+    }
+    
+    .tableau tbody, .tableau tr, .tableau td {
+        display: block;
+        width: 100%;
+    }
+    
+    .tableau tr {
+        margin-bottom: 15px;
+        border: 1px solid #e2e8f0;
+        padding: 10px;
+    }
+    
+    .tableau td {
+        padding: 8px 0;
+        text-align: left;
+    }
+    
+    .tableau td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        display: inline-block;
+        width: 100px;
+    } */
+/* }  */

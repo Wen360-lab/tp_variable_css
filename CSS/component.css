@@ -1,73 +1,68 @@
-
 .photo_profil {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    height: 130px;
-    width: 130px;
+    height: var(--size-profile);
+    width: var(--size-profile);
 
     background-image: url(/Assets/images/femmeAfro.jpg);
     background-size: cover;
-    border-radius: 50%;
-    border: 0.1px solid beige;
+    border-radius: var(--border-radius-full);
+    border: 0.1px solid var(--color-border);
 
-    margin: 20px 0 12px 0;
+    margin: var(--spacing-lg) 0 var(--spacing-sm) 0;
 
-    font-family: Sora, sans-serif;
-    font-size: 18px;
+    font-family: var(--font-primary);
+    font-size: var(--font-size-md);
     font-weight: bold;
-    color: #151516;
+    color: var(--color-text-dark);
 }
-
 
 .bouton {
     display: flex;
     align-items: center;
     justify-content: center;
 
-    font-family: 'DM sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #000000;
+    font-family: var(--font-secondary);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-normal);
+    color: var(--color-text-black);
 
-    background-color: #ffffff;
-    border-radius: 10px;
+    background-color: var(--color-text-white);
+    border-radius: var(--border-radius-md);
     border: none;
     cursor: pointer;
-    box-shadow: 1px 1px 0.5px black;
+    box-shadow: var(--shadow-button);
 
-    padding: 10px 35px;
-    gap: 10px;
+    padding: var(--spacing-xs) var(--spacing-xxl);
+    gap: var(--spacing-xs);
 
-    transition: 0.3s ease ;
+    transition: var(--transition-default);
 }
 
 .bouton:hover {
-    color: #ffffff;
-    background-color: #6366F1;
+    color: var(--color-text-white);
+    background-color: var(--color-primary);
 }
-
 
 img, .icon {
-    height: 20px;
-    width: 20px;
-
+    height: var(--size-icon);
+    width: var(--size-icon);
 }
 
-
-.cards_container{
+.cards_container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 30px;
+    padding: var(--spacing-lg) var(--spacing-xl);
 }
 
-.logo-chiffre{
+.logo-chiffre {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: var(--spacing-xl);
 }
 
 .card {
@@ -79,11 +74,11 @@ img, .icon {
     height: 100px;
     width: 250px;
     
-    font-family: 'DM sans', sans-serif;
+    font-family: var(--font-secondary);
 
-    background-color: #fff;
-    border-radius: 15px;
-    border: 1px solid rgba(118, 184, 213, 0.402);
+    background-color: var(--color-bg-white);
+    border-radius: var(--border-radius-lg);
+    border: 1px solid var(--color-bg-card-border);
 }
 
 .logo-chiffre img {
@@ -91,47 +86,67 @@ img, .icon {
     justify-content: center;
     align-items: center;
 
-    height: 25px;
-    width: 25px;
+    height: var(--size-logo);
+    width: var(--size-logo);
 
-    border-radius: 6px;
+    border-radius: var(--border-radius-sm);
 
-    padding: 15px;
+    padding: var(--spacing-md);
 }
+
 .logo-chiffre .logo-1 {
-    background-color: #e6f2f9;
+    background-color: var(--color-light-blue);
 }
 
 .logo-chiffre .logo-2 {
-    background-color: #eaf7f1;
+    background-color: var(--color-light-green);
 }
 
 .logo-chiffre .logo-3 {
-    background-color: #fef2e4;
+    background-color: var(--color-light-yellow);
 }
 
 .logo-chiffre .logo-4 {
-    background-color: #e6e6fb;
+    background-color: var(--color-light-purple);
 }
 
 .logo-chiffre p {
-    font-size: 14px;
-    font-weight: 800;
-    color: #616465;
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text-light);
 }
 
 .accent-chiffre {
-    font-size: 20px;
-    font-weight: bolder;
-    color: #151516;
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bolder);
+    color: var(--color-text-dark);
 }
 
 .accent-mois-pos {
-    color: #2e9e6b;
-    font-size: 12px;
+    color: var(--color-success);
+    font-size: var(--font-size-xs);
 }
 
 .accent-mois-neg {
-    color: #c0392b;
-    font-size: 12px;
+    color: var(--color-danger);
+    font-size: var(--font-size-xs);
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.box {
+    background-color: var(--color-text-white);
+    padding: 6px 10px;
+    border-radius: 5px;
+    transition: var(--transition-default);
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: var(--color-primary);
 }
