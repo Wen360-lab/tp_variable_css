@@ -1,0 +1,137 @@
+
+.photo_profil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 130px;
+    width: 130px;
+
+    background-image: url(/Assets/images/femmeAfro.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    border: 0.1px solid beige;
+
+    margin: 20px 0 12px 0;
+
+    font-family: Sora, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #151516;
+}
+
+
+.bouton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'DM sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 1px 0.5px black;
+
+    padding: 10px 35px;
+    gap: 10px;
+
+    transition: 0.3s ease ;
+}
+
+.bouton:hover {
+    color: #ffffff;
+    background-color: #6366F1;
+}
+
+
+img, .icon {
+    height: 20px;
+    width: 20px;
+
+}
+
+
+.cards_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.logo-chiffre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100px;
+    width: 250px;
+    
+    font-family: 'DM sans', sans-serif;
+
+    background-color: #fff;
+    border-radius: 15px;
+    border: 1px solid rgba(118, 184, 213, 0.402);
+}
+
+.logo-chiffre img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 25px;
+    width: 25px;
+
+    border-radius: 6px;
+
+    padding: 15px;
+}
+.logo-chiffre .logo-1 {
+    background-color: #e6f2f9;
+}
+
+.logo-chiffre .logo-2 {
+    background-color: #eaf7f1;
+}
+
+.logo-chiffre .logo-3 {
+    background-color: #fef2e4;
+}
+
+.logo-chiffre .logo-4 {
+    background-color: #e6e6fb;
+}
+
+.logo-chiffre p {
+    font-size: 14px;
+    font-weight: 800;
+    color: #616465;
+}
+
+.accent-chiffre {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #151516;
+}
+
+.accent-mois-pos {
+    color: #2e9e6b;
+    font-size: 12px;
+}
+
+.accent-mois-neg {
+    color: #c0392b;
+    font-size: 12px;
+}

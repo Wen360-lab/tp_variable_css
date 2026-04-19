@@ -1,0 +1,32 @@
+@import url('./CSS/base.css');
+@import url('./CSS/component.css');
+@import url('./CSS/layout.css');
+@import url('./CSS/variables.css');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+main {
+    height: 100vh;
+    width: 80vw;
+    
+    flex: 1;
+    overflow-y: auto;
+    
+    background-color: #f8fafc;
+    
+
+    font-family: 'DM Sans', sans-serif;
+}

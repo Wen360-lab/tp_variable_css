@@ -1,0 +1,165 @@
+.aside_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 20vw;
+    height: 100vh;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+
+    color: #ffffff;
+    background-color: #1e293b;
+}
+
+.sidebar, .profil {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.sidebar {
+    margin: 35px;
+    gap: 30px;
+
+}
+
+.nom_profil {
+    font-family: 'DM sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.adress_profil {
+    font-family: 'DM sans', sans-serif;
+    font-size: 12px;
+}
+
+.ligne {
+    width: 200px;
+    margin: 25px 0 30px 0;
+}
+
+.side_elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.171);
+    backdrop-filter: blur(10px);
+    border: 0.5px solid rgba(255, 255, 255, 0.541);
+
+    gap: 10px;
+    padding: 5px 0;
+
+    border-radius: 16px;
+}
+
+.side_elements li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    width: 89%;
+}
+
+.side_elements li a {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    font-family: Sora, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 16px;
+    color: #ffffff;
+
+    padding: 8px 10px;
+    gap: 15px;
+
+   
+
+}
+a:hover {
+    text-shadow: 1px 1px 0.3px rgb(0, 0, 0, 0.5);
+    background-color: #6366f1;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.tableau {
+    border-collapse: collapse;
+    min-width: 90%;
+    width: 1017px;
+
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.15);
+    margin: 20px 30px;
+
+    cursor: pointer;
+} 
+
+thead tr {
+    border-radius: 15px;
+    background-color: #6366f1;
+    font-family: Sora, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: left;
+}
+
+th, td {
+    padding: 15px 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.154);
+}
+
+tbody tr {
+    font-family: 'DM sans', sans-serif;
+    font-size: 14px;
+    color: #284875;
+}
+
+tbody tr .logo-table {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #a5a6d6;
+}
+
+tbody tr:last-of-type {
+    border-bottom: 2px solid #77b9d5;
+}
+
+.statut-suspendu {
+    padding: 5px 20px; 
+    background-color: #fef3c7;
+    border-radius: 10px;
+    color: #92400e;
+    font-weight: bold;
+}
+
+.statut-connecte {
+    padding: 5px 23px;
+    border-radius: 10px;
+    background-color: #dcfce7;
+    color: #166534;
+    font-weight: bold;
+}
+.statut-deconnecte {
+    padding: 5px 16px;
+    border-radius: 10px;
+    background-color: #fee2e2;
+    color: #991b1b;
+    font-weight: bold;
+}
+
